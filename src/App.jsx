@@ -2,7 +2,10 @@ import { Buttonstyled,Extendbutton,AttributesButton } from "./Basic styled compo
 import { ThemeProvider } from 'styled-components'
 
 const theme = {
-  
+  dark:{
+    primary:'#000',
+    text:'#fff'
+  }
 }
 function App() {
   return (
