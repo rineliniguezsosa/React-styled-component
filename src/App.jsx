@@ -1,4 +1,4 @@
-import { Buttonstyled,Extendbutton } from "./Basic styled component/Button"
+import { Buttonstyled,Extendbutton,AttributesButton } from "./Basic styled component/Button"
 
 
 function App() {
