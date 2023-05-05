@@ -15,5 +15,10 @@ export const Extendbutton = styled(Buttonstyled)`
 
 export const AttributesButton = styled(Buttonstyled).attrs({
   type:'submit' //agregando atributos
-})
+})`
+color: black;
+font-size: 1em;
+border: 2px solid palevioletred;
+border-radius: 3px;
+`;
 
