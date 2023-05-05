@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components'
 function App() {
   return (
     <>
+    <ThemeProvider>
       <h1>BASIC STYLED COMPONENT</h1>
       <button>Button</button>
       <Buttonstyled>Button</Buttonstyled>
@@ -19,6 +20,7 @@ function App() {
       {/* Atributos */}
       <AttributesButton>Atributos</AttributesButton>
       {/* Atributos */}
+      </ThemeProvider>
     </>
   )
 }
