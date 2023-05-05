@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const buttonstyled = styled.button`
+const Buttonstyled = styled.button`
   background: transparent;
   border-radius: 3px;
   border: 2px solid palevioletred;
@@ -14,7 +14,7 @@ function App() {
     <>
       <h1>BASIC STYLED COMPONENT</h1>
       <button>Button</button>
-      <buttonstyled>Button</buttonstyled>
+      <Buttonstyled>Button</Buttonstyled>
     </>
   )
 }
