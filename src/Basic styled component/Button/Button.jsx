@@ -9,7 +9,7 @@ export const Buttonstyled = styled.button`
   padding: 0.25em 1em;
 `
 
-export const Extendbutton = styled(Buttonstyled)`
+export const Extendbutton = styled(Buttonstyled)` //<= extend style
    box-shadow: inset 0px 0px 6px yellow;
 `
 
