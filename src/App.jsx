@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+const buttonstyled = styled.button`
+
+`
+
 function App() {
   return (
     <>
