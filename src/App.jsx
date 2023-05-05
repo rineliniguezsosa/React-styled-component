@@ -14,6 +14,7 @@ function App() {
     <>
       <h1>BASIC STYLED COMPONENT</h1>
       <button>Button</button>
+      <buttonstyled>Button</buttonstyled>
     </>
   )
 }
