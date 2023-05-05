@@ -25,5 +25,7 @@ border-radius: 3px;
 //Theme
 export const Darkbutton = styled(Buttonstyled)`
     border:2px solid ${props => props.theme.dark.primary};
+    background-color:${props => props.theme.dark.primary};
+    color:${props => props.theme.dark.text}
 `
 
