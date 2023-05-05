@@ -1,5 +1,5 @@
 import { Buttonstyled,Extendbutton,AttributesButton } from "./Basic styled component/Button"
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider,createGlobalStyle } from 'styled-components'
 
 const theme = {
   dark:{
