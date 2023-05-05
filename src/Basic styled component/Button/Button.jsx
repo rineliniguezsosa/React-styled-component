@@ -23,4 +23,7 @@ border-radius: 3px;
 `;
 
 //Theme
+export const darkbutton = styled(Buttonstyled)`
+    border:2px solid ${props => props.theme.dark.primary};
+`
 
