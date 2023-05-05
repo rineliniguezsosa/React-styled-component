@@ -13,6 +13,10 @@ function App() {
       {/* extending styles */}
       <Extendbutton>Button Extended</Extendbutton>
       {/* extending styles */}
+
+      {/* Atributos */}
+      <AttributesButton>Atributos</AttributesButton>
+      {/* Atributos */}
     </>
   )
 }
