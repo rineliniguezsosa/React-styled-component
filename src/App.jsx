@@ -1,4 +1,4 @@
-import { Buttonstyled } from "./Basic styled component/Button"
+import { Buttonstyled,Extendbutton } from "./Basic styled component/Button"
 
 
 function App() {
@@ -9,6 +9,10 @@ function App() {
       <Buttonstyled>Button</Buttonstyled>
       <Buttonstyled variant="outlined">Button With Props</Buttonstyled> 
       {/* PROPS */}
+
+      {/* extending styles */}
+      <Extendbutton>Button Extended</Extendbutton>
+      {/* extending styles */}
     </>
   )
 }
