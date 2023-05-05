@@ -13,3 +13,7 @@ export const Extendbutton = styled(Buttonstyled)`
    box-shadow: inset 0px 0px 6px yellow;
 `
 
+export const AttributesButton = styled(Buttonstyled).attrs({
+  type:'submit' //agregando atributos
+})
+
