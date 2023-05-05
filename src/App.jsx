@@ -1,10 +1,13 @@
 import { Buttonstyled,Extendbutton,AttributesButton } from "./Basic styled component/Button"
 import { ThemeProvider } from 'styled-components'
 
+const theme = {
+  
+}
 function App() {
   return (
     <>
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <h1>BASIC STYLED COMPONENT</h1>
       <button>Button</button>
       <Buttonstyled>Button</Buttonstyled>
