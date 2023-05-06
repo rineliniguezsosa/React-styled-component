@@ -11,6 +11,10 @@ const theme = {
     text:'#000'
   }
 }
+
+const globalstyle = createGlobalStyle`
+
+`
 function App() {
   return (
     <>
