@@ -13,7 +13,7 @@ const theme = {
 }
 
 const Globalstyle = createGlobalStyle`
-  button:{
+  button {
     font-family: 'Georgia, 'Times New Roman', Times, serif';
   }
 `
@@ -21,6 +21,8 @@ function App() {
   return (
     <>
     <ThemeProvider theme={theme}>
+      <Globalstyle/>
+
       <h1>BASIC STYLED COMPONENT</h1>
       <button>Button</button>
       <Buttonstyled>Button</Buttonstyled>
