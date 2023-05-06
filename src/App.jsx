@@ -13,7 +13,9 @@ const theme = {
 }
 
 const globalstyle = createGlobalStyle`
-
+  button:{
+    font-family: 'Georgia, 'Times New Roman', Times, serif';
+  }
 `
 function App() {
   return (
