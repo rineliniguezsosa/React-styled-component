@@ -12,7 +12,7 @@ const theme = {
   }
 }
 
-const Globalstyle = createGlobalStyle`
+const Globalstyle = createGlobalStyle` //propiedades globales
   button {
     font-family: 'Georgia, 'Times New Roman', Times, serif';
   }
